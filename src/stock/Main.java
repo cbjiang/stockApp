@@ -7,6 +7,10 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import stock.main.MainController;
 
+/**
+ *
+ * @author cbjiang
+ */
 public class Main extends Application {
 
     @Override
