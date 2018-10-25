@@ -425,7 +425,7 @@ public class TakingController extends BaseController {
                     rowData.add(model.getName());
                     rowData.add(model.getSpec());
                     rowData.add(model.getTaking());
-                    rowData.add("");
+                    rowData.add(model.getTaking()-model.getReality());
                     data.add(rowData);
                 }
             }
